@@ -19,14 +19,14 @@ public class TriangleUtilitiesTest {
     public void getTriangleTest1() {
         String expected =
                 "*\n" +
-                        "**\n" +
-                        "***\n" +
-                        "****\n" +
-                        "*****\n" +
-                        "******\n" +
-                        "*******\n" +
-                        "********\n" +
-                        "*********\n";
+                "**\n" +
+                "***\n" +
+                "****\n" +
+                "*****\n" +
+                "******\n" +
+                "*******\n" +
+                "********\n" +
+                "*********\n";
         String actual = TriangleUtilities.getTriangle(10);
         Assert.assertEquals(expected, actual);
     }
@@ -35,9 +35,9 @@ public class TriangleUtilitiesTest {
     public void getTriangleTest2() {
         String expected =
                 "*\n" +
-                        "**\n" +
-                        "***\n" +
-                        "****\n";
+                "**\n" +
+                "***\n" +
+                "****\n";
         String actual = TriangleUtilities.getTriangle(5);
         Assert.assertEquals(expected, actual);
     }
